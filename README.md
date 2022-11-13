@@ -16,7 +16,7 @@ composer create-project laravel/laravel myapp
 cd myapp
 composer require laravel/jetstream
 php artisan jetstream:install inertia
-npx laravel-jetstream-react@latest install
+npx @veganhacktivists/laravel-jetstream-react@latest install
 ```
 
 It supports teams and/or SSR
@@ -26,7 +26,7 @@ composer create-project laravel/laravel myapp
 cd myapp
 composer require laravel/jetstream
 php artisan jetstream:install inertia --teams --ssr
-npx laravel-jetstream-react@latest install --teams --ssr
+npx @veganhacktivists/laravel-jetstream-react@latest install --teams --ssr
 ```
 
 ## Components
