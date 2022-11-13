@@ -1,17 +1,21 @@
 {
   "compilerOptions": {
     "target": "esnext",
+    "isolatedModules": true,
     "module": "esnext",
     "moduleResolution": "node",
     "jsx": "react",
-    "rootDir": "./resources/js",
     "strict": true,
+    "noEmit": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
+    "skipLibCheck": false,
     "forceConsistentCasingInFileNames": true,
     "paths": {
       "@/*": ["./resources/js/*"]
     },
     "types": ["vite/client"]
-  }
+  },
+  "files": ["./vite.config.ts"],
+  "include": ["./resources/js/**/*"],
+  "exclude": ["node_modules", "vendor"]
 }
