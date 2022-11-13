@@ -23,10 +23,11 @@ const TwoFactorChallenge = () => {
   >(
     (e) => {
       e.preventDefault()
-      setRecovery(true)
+      const isRecovery = !recovery
+      setRecovery(isRecovery)
 
       setTimeout(() => {
-        if (recovery) {
+        if (isRecovery) {
           recoveryCodeRef.current?.focus()
           form.setData('code', '')
         } else {
