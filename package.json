@@ -1,15 +1,18 @@
 {
-  "name": "laravel-jetstream-react",
+  "name": "@veganhacktivists/laravel-jetstream-react",
   "version": "0.3.6",
   "description": "Replace Vue with React in a fresh Laravel Jetstream application",
-  "author": "Ozzie Neher @ozziexsh",
+  "author": "Vegan Hacktivists @veganhacktivists",
   "bin": {
     "laravel-jetstream-react": "bin/run"
   },
-  "homepage": "https://github.com/ozziexsh/laravel-jetstream-react",
+  "homepage": "https://github.com/veganhacktivists/laravel-jetstream-react",
   "license": "MIT",
   "main": "dist/index.js",
-  "repository": "ozziexsh/laravel-jetstream-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veganhacktivists/laravel-jetstream-react.git"
+  },
   "files": [
     "/bin",
     "/dist",
@@ -57,7 +60,9 @@
   "engines": {
     "node": ">=12.0.0"
   },
-  "bugs": "https://github.com/ozziexsh/laravel-jetstream-react/issues",
+  "bugs": {
+    "url": "https://github.com/veganhacktivists/laravel-jetstream-react/issues"
+  },
   "keywords": [
     "laravel",
     "jetstream",
